@@ -6,6 +6,14 @@ body {
 	color: white;
 }
 
+.simsun_p1 {
+	font-family: "SimSun";
+}
+
+#enp1 {
+	font-family: "Times New Roman", Times, serif;;
+}
+
 #hover_button1 {
   width: 100px;
   height: 100px;
