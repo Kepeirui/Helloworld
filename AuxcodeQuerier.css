@@ -1,0 +1,109 @@
+body {
+	text-align: center;
+	background-image: linear-gradient(Pink, LightSkyBlue);
+	background-repeat: repeat-x;
+	background-size: cover;
+    height: 100vh;
+	font-family: "Times New Roman", "宋体", Serif;
+	font-weight: bold;
+}
+
+h1 {
+	color: Purple;
+	font-size: 300%;
+}
+
+#author {
+	color: Black;
+	font-size: 22px;
+}
+
+#tableInputConfirm {
+	margin: auto;
+	width: 95%;
+	max-width: 680px;
+}
+
+#inputBox {
+	/*width: 575px;*/
+	width: 95%;
+	height: 45px;
+	border: none; 
+	border-radius: 11px;
+	outline-style: none;
+	color: Gray;
+	font-family: "Courier New", Monospace;
+	font-weight: bold;
+	font-size: 120%;
+}
+
+#inputBox:hover {
+	outline: 1px solid;
+}
+
+#inputBox:focus {
+	color: Black;
+}
+
+#confmBtn {
+	/*width: 105px;*/
+	height: 48px;
+	width: 95%;
+	border: none;
+	border-color: Wihte;
+	border-radius: 11px;
+	font-size: 112%;
+}
+
+#confmBtn:hover {
+	outline: 1px solid;
+}
+
+#confmBtn:active {
+	transform: scale(0.98);
+	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.24);
+}
+
+#inpChar {
+	margin-left: 5%;
+	margin-top: 2%;
+	height: 52px;
+	width: 90%;
+	max-width: 700px;
+	background: none;
+	border: none;
+	resize: none;
+	font-family: Serif;
+	font-size: 275%;
+	font-weight: bold;
+}
+
+#inpChar:focus {
+	outline: none;
+}
+
+#outputBox {
+	height: 200px;
+	width: 90%;
+	max-width: 700px;
+	resize: none;
+	background-color: transparent;
+	border-style: none;
+	font-family: "Courier New", Monospace;
+	font-weight: bold;
+	font-size: 150%;
+}
+
+#outputBox:focus {
+	outline: none;
+}
+
+#announcement {
+	position: absolute;
+	width: 95%;
+    bottom: 0%;
+    height: 20%;/*脚部的高度*/
+	clear: both;
+	text-align: left;
+	font-weight: normal;
+}
