@@ -1,13 +1,26 @@
 <!DOCTYPE html>
 
 <html lang="zh-CN">
-<style></style>
+
 <head>
-	<link rel="stylesheet" type="text/css" href="AuxcodeQuerier.css">
+	<link rel="stylesheet" type="text/css" href="css/AuxcodeQuerier.css">
     <meta name="viewport" content="width=device-width,initial-scale=1.0" charset="utf-8" />
     <title>自然码辅码在线查询</title>
 </head>
+
 <body>
+
+<div id="sideBar">
+    <div id=sbCloseBtn class=sideBarItm onclick="sbClose()" style="font-size:1.5rem;border-bottom:3px solid Black">关闭 &times;</div>
+    <a href="https://copperay.github.io/res/Usage.md" class=sideBarItm>使用方法</a>
+    <a href="https://copperay.github.io/res/About.md" class=sideBarItm>关于</a>
+    <a href="https://copperay.github.io/res/Donate.md" class=sideBarItm>捐助</a>
+</div>
+
+<ul>
+	<li style="display:inline"><button id=sideBarIcn onclick="sbOpen()">&#9776;</button></li>
+</ul>
+
 <table>
 <tr>
 	<h1>自然码辅码在线查询
@@ -31,14 +44,7 @@
 	<textarea id=outputBox type=text readonly="readonly"></textarea>
 </tr>
 </table>
-	<div id=announcement>
-		<p style="font-weight: bold; font-size: 20px">声明</p>
-		<p>1、本网站系作者Copper独立开发，开放给所有爱好自然码的朋友；<br>
-		2、作者未有任何针对本项目的经济支持，如果你觉得有必要，务必作一点力所能及的捐赠，这是我继续做好这个网站的动力；<br>
-		3、如果你觉得这个网站挺好用，请分享给周围使用自然码的朋友；<br>
-		4、如果你有任何意见或建议，欢迎到我的这个github项目下提issue；</p>
-	</div>
 	
-	<script type="text/javascript" src="AuxcodeQuerier.js"></script>
+<script type="text/javascript" src="js/AuxcodeQuerier.js"></script>
 </body>
 </html>
