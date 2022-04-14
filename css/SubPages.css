@@ -1,0 +1,14 @@
+.CenterLine {
+			text-align:center;
+}
+
+body {
+	background-image:linear-gradient(Pink, LightSkyBlue);
+	font-family:"宋体",serif;
+	margin-left:15%;
+	margin-right:15%
+}
+
+p {
+	align:center;
+}
