@@ -1,0 +1,124 @@
+body {
+	font-family:
+		/*Apple*/"San Francisco Light","PingFang SC Light",
+		/*MS*/"Microsoft YaHei Light",
+		sans-serif;
+	line-height:150%;
+	background-color:#FFF;
+	color:#000;
+	width:1000px;
+	margin:30px auto;
+}
+
+ul {
+	list-style:none;
+}
+
+div,ul,li,h3,p {
+	margin:2;
+	padding:2;
+}
+
+h1 {
+	font-family:
+		/*Apple*/"San Francisco","PingFang SC",
+		/*MS*/"Microsoft YaHei",
+		sans-serif;
+}
+
+h3 {
+	font-weight:normal;
+	font-size:22px;
+}
+
+h3 a,h3 a:link,h3 a:visited,h3 a:active{
+	color:#0084B4;
+	border:0;
+	text-decoration:none;
+	font-family:
+		/*Apple*/"San Francisco Light","Hiragino KakuGothic",
+		/*MS*/"Segoe UI Light","Yu Gothic","Meiryo",
+		sans-serif;
+}
+
+h3 a:hover{
+	color:#02A3FB;
+	text-decoration:underline;
+}
+
+h3 small {
+	font-size:16px;
+	color:#999;
+}
+
+p.staff {
+	font-family:
+		/*Apple*/"San Francisco","Hiragino KakuGothic",
+		/*MS*/"Yu Gothic","Meiryo",
+		sans-serif;
+	padding:5px 0 0 0;
+	font-size:12px;
+	color:#666
+}
+
+p.note {
+	padding:10px 0 0 0;
+	font-size:14px;
+	
+	display: -webkit-box;    
+	-webkit-box-orient: vertical;    
+	-webkit-line-clamp: 3;
+	overflow: hidden;
+}
+
+li{
+	background-color:transparent;
+	border-bottom:1px solid #EAEAEA;
+	padding:7px 5px;
+	position:relative;
+	zoom:1;
+}
+
+li.even{
+	background-color:#f9f9f9;
+	border-top:1px solid #FAFAFA
+}
+
+li img{
+	background-color:#FFF;
+	padding:2px;
+	border-top:1px solid #C7C7C9;
+	border-left:1px solid #A9A9AB;
+	border-right:1px solid #A9A9AB;
+	border-bottom:1px solid #858486;
+	-webkit-box-shadow:0 1px 5px #AAA;
+	-moz-box-shadow:0 1px 5px #AAA;
+	box-shadow:0 1px 5px #AAA;
+	
+	max-width:100px;
+}
+
+li img:hover {
+	background-color:#FFF;
+	border:1px solid #0187C5;
+	padding:2px;
+	-webkit-box-shadow:0 1px 5px #0187C5;
+	-moz-box-shadow:0 1px 5px #0187C5;
+	box-shadow:0 1px 5px #0187C5
+}
+
+.ll {
+	float:left
+}
+
+li:after {
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden
+}
+
+li a + div {
+	margin-left:120px;
+}
