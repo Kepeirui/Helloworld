@@ -5,7 +5,7 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="css/AuxcodeQuerier.css">
     <meta name="viewport" content="width=device-width,initial-scale=1.0" charset="utf-8" />
-    <title>自然码辅码在线查询</title>
+    <title>自然码辅码在线检索</title>
 </head>
 
 <body onkeypress="if(event.keyCode===13) document.all.confmBtn.click()">
@@ -23,17 +23,17 @@
 
 <table>
 <tr>
-	<h1>自然码辅码在线查询
+	<h1>自然码辅码在线检索
 		<span id=author>By Copper</span>
 	</h1>
 </tr>
 	<table id=tableInputConfirm>
 		<tr>
 			<td>
-				<input id=inputBox type=text value="在此键入…… Enter here..." onfocus="this.select()" />
+				<input id=inputBox type=text value="在此键入（回车以检索）" onfocus="this.select()" />
 			</td>
 			<td>
-				<button id=confmBtn onclick="query()">查询</button>
+				<button id=confmBtn onclick="query()">检索</button>
 			</td>
 		</tr>
 	</table>
